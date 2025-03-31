@@ -19,7 +19,7 @@ except ImportError:
     print("groq module not found, using dummy Groq client.")
 
 def get_insights(query_text):
-    api_key = "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"
+    api_key = "GROQ_API_KEY"
     client = Groq(api_key=api_key)
     chat_completion = client.chat.completions.create(
         messages=[{"role": "user", "content": query_text}],
