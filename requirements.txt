@@ -1,0 +1,7 @@
+typer
+tabulate
+networkx
+matplotlib
+groq
+flask
+fpdf2
